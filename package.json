@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-temp",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpaulobneto/monorepo-temp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpaulobneto/monorepo-temp/issues"
+  },
+  "homepage": "https://github.com/jpaulobneto/monorepo-temp#readme",
+  "devDependencies": {
+    "auto": "^10.29.2"
+  }
+}
