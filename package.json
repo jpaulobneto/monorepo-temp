@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/jpaulobneto/monorepo-temp.git"
   },
-  "author": "",
+  "author": "Joao Paulo Barbosa <jpaulobneto@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jpaulobneto/monorepo-temp/issues"
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/jpaulobneto/monorepo-temp#readme",
   "devDependencies": {
     "auto": "^10.29.2"
+  },
+  "auto": {
+    "plugins": [
+      "npm"
+    ],
+    "onlyPublishWithReleaseLabel": true
   }
 }
