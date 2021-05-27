@@ -1,9 +1,10 @@
 {
   "name": "monorepo-temp",
   "version": "0.0.0",
-  "description": "",
+  "description": "Monorepo",
   "main": "index.js",
   "scripts": {
+    "preinstall": "lerna bootstrap",
     "release": "auto shipit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
